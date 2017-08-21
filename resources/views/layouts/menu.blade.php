@@ -23,7 +23,7 @@
               <li class="{{ Request::path() == 'nosotros' ? 'active':'' }}"><a href="/nosotros">Nosotros</a></li>
               <li class="{{ Request::path() == 'indicadores' ? 'active':'' }}"><a href="/indicadores">Indicadores</a></li>
               <li class="{{ Request::path() == 'contacto' ? 'active':'' }}"><a href="/contacto">Contacto</a></li>
-              <li class="{{ Request::path() == 'login' ? 'active':'' }}"><a href="/register">Registro</a></li>
+              <li><a href="#" data-toggle="modal" data-target="#register-modal">CREAR CUENTA</a></li>
           </ul>
         </nav>
     </div>
