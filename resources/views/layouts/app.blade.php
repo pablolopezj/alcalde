@@ -27,11 +27,11 @@
 
         @yield('content')
         
-<div class="modal fade" id="register-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade" id="register-modal" tabindex="-1" role="dialog" aria-labelledby="register-modal" aria-hidden="true">
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Unete a la comunidad para mejorar Tulancingo de Bravo Hgo.</h5>
+        <h5 class="modal-title">Unete a la comunidad para mejorar Tulancingo de Bravo Hgo.</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -40,9 +40,6 @@
         <div class="embed-responsive embed-responsive-16by9">
         <iframe class="embed-responsive-item" src="/register"></iframe>
         </div>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
       </div>
     </div>
   </div>
