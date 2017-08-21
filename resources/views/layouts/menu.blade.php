@@ -19,10 +19,10 @@
         
         <nav data-scroll-header id="menu-principal" class="collapse">
           <ul>
-              <li class="active"><a href="/">Inicio</a></li>
-              <li><a href="/nosotros">Nosotros</a></li>
-              <li><a href="/indicadores">Indicadores</a></li>
-              <li><a href="/contacto">Contacto</a></li>
+              <li class="{{ Request::path() == '/' ? 'active':'' }}"><a href="/">Inicio</a></li>
+              <li class="{{ Request::path() == 'nosotros' ? 'active':'' }}"><a href="/nosotros">Nosotros</a></li>
+              <li class="{{ Request::path() == 'indicadores' ? 'active':'' }}"><a href="/indicadores">Indicadores</a></li>
+              <li class="{{ Request::path() == 'contacto' ? 'active':'' }}"><a href="/contacto">Contacto</a></li>
           </ul>
         </nav>
     </div>

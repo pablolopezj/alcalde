@@ -17,7 +17,7 @@
   <div class="container">
       <div class="row">
         <div class="col-12 text-right">
-            <a href="index.html">Inicio</a> >> Indicadores
+            <a href="/">Inicio</a> >> Indicadores
         </div>
       </div>
   </div>
