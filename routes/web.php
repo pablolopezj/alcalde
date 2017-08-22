@@ -24,3 +24,5 @@ Route::get('/contacto', 'IndexController@contacto');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::get('/admin', 'admin\IndexController@dashboard');
