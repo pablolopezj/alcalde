@@ -27,6 +27,24 @@
 
         @yield('content')
         
+<div class="modal fade" id="register-modal" tabindex="-1" role="dialog" aria-labelledby="register-modal" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Unete a la comunidad para mejorar Tulancingo de Bravo Hgo.</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" src="/register"></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+        
         <!-- Files JS -->
       <script src="js/jquery-3.2.1.min.js" charset="utf-8"></script>
       <script src="js/tether.min.js" charset="utf-8"></script>

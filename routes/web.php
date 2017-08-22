@@ -20,3 +20,7 @@ Route::get('/nosotros', 'IndexController@nosotros');
 Route::get('/indicadores', 'IndexController@indicadores');
 
 Route::get('/contacto', 'IndexController@contacto');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
