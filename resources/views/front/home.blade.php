@@ -7,7 +7,7 @@
         <div class="container">
             <h1 class="display-4 wow bounceIn">Alcalde Tulancingo En Línea</h1>
             <p class="wow bounceIn" data-wow-delay=".3s">Usa la plataforma para reportar las necesidades de la ciudad de Tulancingo Hgo.</p>
-            <a href="contacto.html" class="btn btn-primary btn-lg">Reportar incidente</a>
+            <a href="/reporte" class="btn btn-primary btn-lg">Reportar incidente</a>
         </div>
     </div>
 
@@ -141,18 +141,6 @@
           </div>
           </div>
       </section>
-      
-      <footer class="piedepagina py-2" role="contentinfo">
-          <div class="container">
-          <p> 2017 Network todos los derechos reservados</p>
-          <ul class="redes-sociales">
-              <li><a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
-              <li><a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
-              <li><a href="#"><i class="fa fa-youtube-square" aria-hidden="true"></i></a></li>
-          </ul>
-          </div>
-      </footer>
-      <a data-scroll href="#header" class="slide-up"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i></a>
 @endsection
 
 @section ('scripts')

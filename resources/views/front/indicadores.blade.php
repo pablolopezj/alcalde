@@ -52,22 +52,9 @@
                     <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#indicador3"> Más Información </a>
                 </article>
             </div>
-
           </div>
       </div>
   </main>
-
-  <footer class="piedepagina py-2" role="contentinfo">
-      <div class="container">
-      <p> 2017 Network todos los derechos reservados</p>
-      <ul class="redes-sociales">
-          <li><a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
-          <li><a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
-          <li><a href="#"><i class="fa fa-youtube-square" aria-hidden="true"></i></a></li>
-      </ul>
-      </div>
-  </footer>
-  <a data-scroll href="#" class="slide-up"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i></a>
   
   <div class="modal fade" id="indicador1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg" role="document">

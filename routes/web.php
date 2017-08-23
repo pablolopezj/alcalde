@@ -21,6 +21,8 @@ Route::get('/indicadores', 'IndexController@indicadores');
 
 Route::get('/contacto', 'IndexController@contacto');
 
+Route::get('/reporte', 'ReporteController@index');
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
