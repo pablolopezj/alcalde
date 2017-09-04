@@ -31,21 +31,21 @@
                         <div class="form-group row">
                             <label for="typeof-report" class="col-sm-2 form-control-label">Tipo de reporte</label>
                             <div class="col-sm-10">
-                            <select class="form-control" id="typeof-report" data-toggle="tooltip" data-placement="top" title="Selecciona el tipo de reporte">
-                                <option> Uno </option>
-                                <option> Uno </option>
-                                <option> Uno </option>
-                                <option> Uno </option>
+                            <select class="form-control custom-select" id="typeof-report" data-toggle="tooltip" data-placement="top" title="Selecciona el tipo de reporte">
+                                <option value="1"> Uno </option>
+                                <option value="2"> dos </option>
+                                <option value="3"> tres </option>
+                                <option value="4"> cuatro </option>
                             </select>
                             </div>
                         </div>
                         <div class="form-group row">
                             <label for="colonia-report" class="col-sm-2 form-control-label">Colonia: </label>
                             <div class="col-sm-10">
-                            <select class="form-control" id="colonia-report" placeholder="Colonia" data-toggle="tooltip" data-placement="top" title="Selecciona tu colonia">
-                                <option>Colonia uno</option>
-                                <option>Colonia uno</option>
-                                <option>Colonia uno</option>
+                            <select class="form-control custom-select" id="colonia-report" placeholder="Colonia" data-toggle="tooltip" data-placement="top" title="Selecciona tu colonia">
+                                <option value="1">Colonia uno</option>
+                                <option value="2">Colonia dos</option>
+                                <option value="3">Colonia tres</option>
                             </select>
                             </div>
                         </div>

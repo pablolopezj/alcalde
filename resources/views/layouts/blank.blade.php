@@ -12,6 +12,7 @@
         <link rel="stylesheet" href="/css/font-awesome.min.css">
         <!-- CSS -->
         <link rel="stylesheet" href="/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/css/style.css">
         @yield('styles')
     </head>
     <body>

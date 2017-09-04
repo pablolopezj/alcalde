@@ -29,7 +29,7 @@
 
         <footer class="piedepagina py-2" role="contentinfo">
           <div class="container">
-          <p> 2017 Network todos los derechos reservados</p>
+          <p> 2017 Alcalde en Línea todos los derechos reservados</p>
           <ul class="redes-sociales">
               <li><a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
               <li><a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
@@ -48,10 +48,11 @@
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
-      <div class="modal-body">
+      <div class="modal-body row">
         <div class="embed-responsive embed-responsive-16by9">
         <iframe class="embed-responsive-item" src="/register"></iframe>
         </div>
+        
       </div>
     </div>
   </div>

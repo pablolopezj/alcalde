@@ -2,11 +2,14 @@
 
 namespace App\Http\Controllers;
 
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Http\Request;
 
 class IndexController extends Controller
 {
     public function home() {
+        //Auth::loginUsingId(1);
+        Auth::logout();
         return view('front.home');
     }
     

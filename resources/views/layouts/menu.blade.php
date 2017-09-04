@@ -20,10 +20,10 @@
         <nav data-scroll-header id="menu-principal" class="collapse">
           <ul>
               <li class="{{ Request::path() == '/' ? 'active':'' }}"><a href="/">Inicio</a></li>
-              <li class="{{ Request::path() == 'nosotros' ? 'active':'' }}"><a href="/nosotros">Nosotros</a></li>
+              <!--  <li class="{{ Request::path() == 'nosotros' ? 'active':'' }}"><a href="/nosotros">Nosotros</a></li> -->
               <li class="{{ Request::path() == 'indicadores' ? 'active':'' }}"><a href="/indicadores">Indicadores</a></li>
               <li class="{{ Request::path() == 'contacto' ? 'active':'' }}"><a href="/contacto">Contacto</a></li>
-              <li class="{{ Request::path() == 'reporte' ? 'active':'' }}"><a href="/contacto">Reporte</a></li>
+              <li class="{{ Request::path() == 'reporte' ? 'active':'' }}"><a href="/reporte">Reporte</a></li>
               <li><a href="#" data-toggle="modal" data-target="#register-modal">CREAR CUENTA</a></li>
           </ul>
         </nav>

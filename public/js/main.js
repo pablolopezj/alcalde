@@ -1,3 +1,11 @@
+$(document).ready(function() {
+    $('.nav-tabs').on('shown.bs.tab', 'a', function(e) {
+        console.log(e.relatedTarget);
+        if (e.relatedTarget) {
+            $(e.relatedTarget).removeClass('active');
+        }
+    });    
+});
 $(document).ready(function(){
     new WOW().init();
     var scroll = new SmoothScroll('a[href*="#"]', {
