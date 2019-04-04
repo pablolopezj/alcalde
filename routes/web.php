@@ -16,6 +16,7 @@ use App\Http\Controllers\IndexController;
 Route::get('/', 'IndexController@home');
 
 Route::get('/nosotros', 'IndexController@nosotros');
+Route::get('/aboutus', 'IndexController@nosotros');
 
 Route::get('/indicadores', 'IndexController@indicadores');
 
